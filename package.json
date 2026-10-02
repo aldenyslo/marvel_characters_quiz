@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "fetch:characters": "node --env-file=.env scripts/fetch-characters.mjs"
+    "fetch:characters": "node --env-file=.env scripts/fetch-characters.mjs",
+    "parse:characters": "node scripts/parse-marvel-characters.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

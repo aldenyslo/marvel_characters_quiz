@@ -10,11 +10,16 @@ if (!apiKey) {
 }
 
 const apiRoot = "https://comicvine.gamespot.com/api"
-const outputPath = resolve(
+const rawOutputPath = resolve(
+  dirname(fileURLToPath(import.meta.url)),
+  "../data/raw/marvel-characters.json",
+)
+const parsedOutputPath = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "../public/data/marvel-characters.json",
 )
-const temporaryOutputPath = `${outputPath}.tmp`
+const temporaryRawOutputPath = `${rawOutputPath}.tmp`
+const temporaryParsedOutputPath = `${parsedOutputPath}.tmp`
 const fields = [
   "id",
   "name",
@@ -84,11 +89,13 @@ async function request(resource, parameters) {
   }
 }
 
-async function readExistingCharacters() {
+async function readExistingCharacters(filePath) {
   try {
-    const data = JSON.parse(await readFile(outputPath, "utf8"))
+    const data = JSON.parse(await readFile(filePath, "utf8"))
     if (!Array.isArray(data)) {
-      throw new Error("The existing character archive is not a JSON array.")
+      throw new Error(
+        `The existing archive at ${filePath} is not a JSON array.`,
+      )
     }
     return data
   } catch (error) {
@@ -97,13 +104,26 @@ async function readExistingCharacters() {
   }
 }
 
-async function writeCharacters(characters) {
-  await mkdir(dirname(outputPath), { recursive: true })
-  await writeFile(
-    temporaryOutputPath,
-    `${JSON.stringify(characters, null, 2)}\n`,
-  )
-  await rename(temporaryOutputPath, outputPath)
+async function writeCharacters(filePath, characters) {
+  await mkdir(dirname(filePath), { recursive: true })
+  const temporaryFilePath =
+    filePath === rawOutputPath
+      ? temporaryRawOutputPath
+      : temporaryParsedOutputPath
+  await writeFile(temporaryFilePath, `${JSON.stringify(characters, null, 2)}\n`)
+  await rename(temporaryFilePath, filePath)
+}
+
+function normalizeParsedCharacter(character) {
+  const count = Number(character.count_of_issue_appearances ?? 0)
+
+  return {
+    name: character.name ?? null,
+    real_name: character.real_name ?? null,
+    deck: character.deck ?? null,
+    count_of_issue_appearances: Number.isFinite(count) ? count : 0,
+    gender: character.gender?.name ?? character.gender ?? null,
+  }
 }
 
 const publisherPayload = await request("publishers", {
@@ -127,7 +147,7 @@ const characterRefs = publisherDetail.results.characters.slice(
   0,
   requestedCount,
 )
-const existingCharacters = await readExistingCharacters()
+const existingCharacters = await readExistingCharacters(rawOutputPath)
 const charactersById = new Map(
   existingCharacters
     .filter((character) => character.publisher?.id === publisher.id)
@@ -158,7 +178,7 @@ for (let offset = 0; offset < characterRefs.length; offset += limit) {
       .slice(0, offset + batch.length)
       .map(({ id }) => charactersById.get(id))
       .filter((character) => character !== undefined)
-    await writeCharacters(completedCharacters)
+    await writeCharacters(rawOutputPath, completedCharacters)
 
     console.log(
       `Saved ${completedCharacters.length} of ${characterRefs.length} Marvel characters`,
@@ -179,4 +199,16 @@ if (characters.length !== characterRefs.length) {
   )
 }
 
-console.log(`Saved ${characters.length} characters to ${outputPath}`)
+const parsedCharacters = characters
+  .filter((character) => Number(character.count_of_issue_appearances ?? 0) >= 5)
+  .map(normalizeParsedCharacter)
+
+await writeCharacters(rawOutputPath, characters)
+await writeCharacters(parsedOutputPath, parsedCharacters)
+
+console.log(
+  `Saved ${characters.length} raw Marvel characters to ${rawOutputPath}`,
+)
+console.log(
+  `Saved ${parsedCharacters.length} parsed Marvel characters to ${parsedOutputPath}`,
+)
