@@ -52,7 +52,9 @@ function normalizeName(value: string): string {
 }
 
 function getSurname(realName: string): string {
-  const nameWithoutSuffix = realName.replace(generationalSuffixPattern, "").trim()
+  const nameWithoutSuffix = realName
+    .replace(generationalSuffixPattern, "")
+    .trim()
   const nameParts = nameWithoutSuffix.split(/\s+/)
   if (nameParts.length < 2) return ""
 
