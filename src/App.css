@@ -802,7 +802,7 @@ p {
 }
 
 .table-scroll {
-  height: min(72vh, 850px);
+  height: min(84vh, 950px);
   min-height: 360px;
   overflow: auto;
   border-top: 1px solid var(--ink);
@@ -810,58 +810,44 @@ p {
   scrollbar-width: thin;
 }
 
-.character-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  column-gap: 24px;
 }
 
-.character-table th {
-  position: sticky;
-  z-index: 1;
-  top: 0;
-  height: 34px;
-  background: var(--paper);
-  color: var(--muted);
-  font: 500 9px/1 var(--mono);
-  text-align: left;
-}
-
-.character-table th:first-child,
-.rank-cell {
-  width: 66px;
-  padding-left: 10px;
-}
-
-.character-table th:last-child {
-  padding-left: 12px;
-}
-
-.character-table tbody tr {
+.character-row {
+  display: grid;
+  min-width: 0;
+  min-height: 38px;
+  grid-template-columns: 40px minmax(0, 1fr);
+  align-items: center;
   border-top: 1px solid var(--line);
   transition: background 120ms ease;
 }
 
-.character-table tbody tr:hover {
+.character-row:hover {
   background: rgb(255 255 255 / 50%);
 }
 
-.character-table tbody tr.is-revealed {
+.character-row.is-revealed {
   background: rgb(241 204 70 / 18%);
 }
 
 .rank-cell {
+  padding-left: 10px;
   color: #9a978e;
   font: 400 10px/1 var(--mono);
 }
 
 .character-cell {
   display: flex;
-  min-height: 43px;
+  min-height: 36px;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 8px 10px 8px 12px;
+  gap: 8px;
+  padding: 6px 8px 6px 4px;
 }
 
 .character-name {
@@ -905,13 +891,13 @@ p {
   .guess-input { min-height: 46px; }
   .archive-heading h2 { font-size: 27px; }
   .table-scroll { height: 65vh; min-height: 300px; }
+  .character-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 400px) {
   .app-shell { padding: 0 16px; }
   .archive-heading { align-items: start; flex-direction: column; gap: 8px; }
   .character-cell { gap: 8px; padding-right: 4px; }
-  .rank-cell,
-  .character-table th:first-child { width: 48px; padding-left: 5px; }
+  .rank-cell { padding-left: 5px; }
   .appearance-hint { font-size: 8px; }
 }

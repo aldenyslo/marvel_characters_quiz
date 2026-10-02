@@ -76,13 +76,19 @@ const CharacterRows = memo(function CharacterRows({
   revealed: Set<number>
 }) {
   return (
-    <tbody>
+    <>
       {rows.map(({ character, index }) => {
         const isRevealed = revealed.has(index)
         return (
-          <tr className={isRevealed ? "is-revealed" : ""} key={index}>
-            <td className="rank-cell">{String(index + 1).padStart(4, "0")}</td>
-            <td className="character-cell">
+          <div
+            className={`character-row${isRevealed ? " is-revealed" : ""}`}
+            key={index}
+            role="listitem"
+          >
+            <span className="rank-cell">
+              {String(index + 1).padStart(4, "0")}
+            </span>
+            <span className="character-cell">
               <span className="character-name">
                 {isRevealed ? character.name : "Undiscovered"}
               </span>
@@ -90,11 +96,11 @@ const CharacterRows = memo(function CharacterRows({
                 {character.count_of_issue_appearances.toLocaleString()}{" "}
                 appearances
               </span>
-            </td>
-          </tr>
+            </span>
+          </div>
         )
       })}
-    </tbody>
+    </>
   )
 })
 
@@ -298,15 +304,9 @@ function App() {
               role="region"
               aria-label="Character archive"
             >
-              <table className="character-table">
-                <thead>
-                  <tr>
-                    <th scope="col">NO.</th>
-                    <th scope="col">CHARACTER</th>
-                  </tr>
-                </thead>
+              <div className="character-grid" role="list">
                 <CharacterRows rows={quizRows} revealed={revealed} />
-              </table>
+              </div>
             </div>
           )}
         </div>
