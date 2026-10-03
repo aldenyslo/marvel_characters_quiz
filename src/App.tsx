@@ -22,6 +22,7 @@ const compoundSurnameParts = new Map<string, string[]>([
   ["halebrown", ["hale", "brown"]],
   ["leereynolds", ["lee", "reynolds"]],
   ["taylortemple", ["taylor", "temple"]],
+  ["neramanisummers", ["neramani", "summers"]],
 ])
 const surnameParticles = new Set([
   "al",
