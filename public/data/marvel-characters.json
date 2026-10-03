@@ -659,7 +659,7 @@
   },
   {
     "name": "Celeste Cuckoo",
-    "real_name": null,
+    "real_name": "Celeste Cuckoo",
     "deck": "Celeste is the one of the Stepford Cuckoos, a group of clones of Emma Frost created by the Weapon Plus program. She is currently residing at The White Palace in Krakoa.",
     "count_of_issue_appearances": 1814,
     "gender": "Female"
@@ -3451,13 +3451,6 @@
     "gender": "Male"
   },
   {
-    "name": "Gandy Goose",
-    "real_name": null,
-    "deck": "Old time cartoon character from TerryToons. Often hung around the cat Sourpuss.",
-    "count_of_issue_appearances": 358,
-    "gender": "Male"
-  },
-  {
     "name": "Vulcan",
     "real_name": "Gabriel Summers",
     "deck": "The forgotten third Summers brother, he was raised by the Shi'ar as a slave after the murder of his mother and later became a tyrannical emperor. He is an Omega-level mutant with the ability to manipulate all known forms of energy.",
@@ -4375,13 +4368,6 @@
     "gender": "Female"
   },
   {
-    "name": "Sourpuss",
-    "real_name": null,
-    "deck": "TerryToons character and co-star of Gandy Goose.",
-    "count_of_issue_appearances": 266,
-    "gender": "Male"
-  },
-  {
     "name": "Ava Ayala",
     "real_name": "Ava Ayala",
     "deck": "Ava Ayala is the younger sister of Hector Ayala (the original White Tiger) and the aunt of the former White Tiger (Angela Del Toro). She is an Avengers Academy graduate, and the current wielder of the mystical Jade Tiger Amulet.",
@@ -4670,7 +4656,7 @@
   },
   {
     "name": "Charlotte Jones",
-    "real_name": null,
+    "real_name": "Charlotte Jones",
     "deck": "A police officer with the New York City Police Department.  She is a single mother who was romantically involved with Archangel for a time.\n\nShe is an ally of the X-Men.",
     "count_of_issue_appearances": 249,
     "gender": "Female"
@@ -6119,7 +6105,7 @@
   },
   {
     "name": "Eric Koenig",
-    "real_name": null,
+    "real_name": "Eric Koenig",
     "deck": "German member of the Howling Commandos and founding member of S.H.I.E.L.D.",
     "count_of_issue_appearances": 173,
     "gender": "Male"
@@ -6259,14 +6245,14 @@
   },
   {
     "name": "Kristoff Vernard",
-    "real_name": null,
+    "real_name": "Kristoff Vernard",
     "deck": "Kristoff Vernard is the adopted son of Victor Von Doom and heir to the Latverian throne.",
     "count_of_issue_appearances": 169,
     "gender": "Male"
   },
   {
     "name": "Nancy Brown",
-    "real_name": null,
+    "real_name": "Nancy Brown-Hale",
     "deck": "A college friend to Patsy Walker and Hedy Wolfe",
     "count_of_issue_appearances": 169,
     "gender": "Female"
@@ -8183,13 +8169,6 @@
     "gender": "Male"
   },
   {
-    "name": "Ziggy Pig",
-    "real_name": "Ziggy Pig",
-    "deck": "Ziggy Pig was Timely's answer to the Funny Animals craze from the 1950's! He was best friends with Silly Seal.",
-    "count_of_issue_appearances": 122,
-    "gender": "Male"
-  },
-  {
     "name": "Beef",
     "real_name": "Buford Wilson ",
     "deck": "The super-strong mutant Beef, Buford Wilson, would be the second to the last mutant youth to be recruited into the original Hellions.",
@@ -8436,7 +8415,7 @@
   },
   {
     "name": "Alysande Stuart",
-    "real_name": null,
+    "real_name": "Alysande Stuart",
     "deck": "Alysande is the twin sister of Alistaire Stewart and a Brigadier in the Weird Happenings Organization, otherwise known as W.H.O.",
     "count_of_issue_appearances": 116,
     "gender": "Female"
@@ -8561,13 +8540,6 @@
     "gender": "Male"
   },
   {
-    "name": "Yakkie Doodle Duck",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 114,
-    "gender": "Male"
-  },
-  {
     "name": "Dog Logan",
     "real_name": "Dog Logan",
     "deck": "Wolverine's secret half-brother and first rival.",
@@ -8587,13 +8559,6 @@
     "deck": "Itsu was the wife of Wolverine and mother of Daken. She was killed by the Winter Soldier.",
     "count_of_issue_appearances": 114,
     "gender": "Female"
-  },
-  {
-    "name": "Silly Seal",
-    "real_name": "Silly Seal",
-    "deck": "Silly Seal was Timely's answer to the Funny Animals craze from the 1950's! He was best friends with Ziggy Pig.",
-    "count_of_issue_appearances": 114,
-    "gender": "Male"
   },
   {
     "name": "Minotaur",
@@ -8905,7 +8870,7 @@
   },
   {
     "name": "Marie Lathrop",
-    "real_name": null,
+    "real_name": "Marie Lathrop",
     "deck": "Romantic interest of Black Rider.",
     "count_of_issue_appearances": 109,
     "gender": "Female"
@@ -9080,7 +9045,7 @@
   },
   {
     "name": "Ziran the Tester",
-    "real_name": null,
+    "real_name": "Ziran",
     "deck": "A member of the powerful race called Celestials.",
     "count_of_issue_appearances": 107,
     "gender": "None"
@@ -9535,7 +9500,7 @@
   },
   {
     "name": "Toni Turner",
-    "real_name": null,
+    "real_name": "Antoinette Turner",
     "deck": null,
     "count_of_issue_appearances": 101,
     "gender": "Female"
@@ -10004,7 +9969,7 @@
   },
   {
     "name": "Kurt Marko",
-    "real_name": null,
+    "real_name": "Kurt Marko",
     "deck": "Kurt Marko was the father of Juggernaut and stepfather of Professor X. Notably abusive. ",
     "count_of_issue_appearances": 94,
     "gender": "Male"
@@ -10613,7 +10578,7 @@
   },
   {
     "name": "Nezarr the Calculator",
-    "real_name": null,
+    "real_name": "Nezarr",
     "deck": "Nezarr the Calculator is a member of the Celestials, a race of cosmic beings who have conducted genetic experiments on countless worlds throughout the universe. Nezarr's sole duty is to examine and catalogue all data brought to him by the others, and produce the findings to Arishem the Judge.",
     "count_of_issue_appearances": 87,
     "gender": "None"
@@ -10998,7 +10963,7 @@
   },
   {
     "name": "Alia Gregor",
-    "real_name": null,
+    "real_name": "Alia Gregor",
     "deck": "Scientist of Orchis.",
     "count_of_issue_appearances": 83,
     "gender": "Female"
@@ -11131,7 +11096,7 @@
   },
   {
     "name": "Jeff Bannister",
-    "real_name": null,
+    "real_name": "Jeffrey Bannister",
     "deck": null,
     "count_of_issue_appearances": 82,
     "gender": "Male"
@@ -11481,7 +11446,7 @@
   },
   {
     "name": "Archie Corrigan",
-    "real_name": null,
+    "real_name": "Archibald Corrigan",
     "deck": "Archie Corrigan is friend and pilot of Wolverine.",
     "count_of_issue_appearances": 79,
     "gender": "Male"
@@ -11593,7 +11558,7 @@
   },
   {
     "name": "Jason Ionello",
-    "real_name": null,
+    "real_name": "Jason Ionello",
     "deck": "Part the \"popular crowd\" along with Flash Thompson, Brian \"Tiny\" McKeever, Seymour O'Reilly, and Sally Avril who were often picking on Peter Parker.",
     "count_of_issue_appearances": 78,
     "gender": "Male"
@@ -12188,7 +12153,7 @@
   },
   {
     "name": "Spike Freeman",
-    "real_name": null,
+    "real_name": "Spike Freeman",
     "deck": "Spike Freeman was the owner of both the X-Force and X-Statix.  He did not care about the well-being of any team member, but rather only his money and ratings.",
     "count_of_issue_appearances": 73,
     "gender": "Male"
@@ -12197,13 +12162,6 @@
     "name": "Dexter Bennett",
     "real_name": "Dexter Bennett",
     "deck": "Rumor monger and scandal sheet printer, Dexter Bennett became the latest owner of the Daily Bugle after a hostile buyout of long-time owner J. Jonah Jameson.",
-    "count_of_issue_appearances": 73,
-    "gender": "Male"
-  },
-  {
-    "name": "Super Bunny",
-    "real_name": "Waffles",
-    "deck": "Super Bunny was Timely's answer to the Funny Animals craze from the 1950's! He was an animal with super powers, much like Mighty Mouse.",
     "count_of_issue_appearances": 73,
     "gender": "Male"
   },
@@ -12349,17 +12307,10 @@
   },
   {
     "name": "Lodus Logos",
-    "real_name": null,
+    "real_name": "Lodus Logos",
     "deck": "Lodus Logos is a mutant from Arakko and a member of the Great Ring.",
     "count_of_issue_appearances": 72,
     "gender": "None"
-  },
-  {
-    "name": "Willie Tanner",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 71,
-    "gender": "Male"
   },
   {
     "name": "Jenny Swensen",
@@ -12440,7 +12391,7 @@
   },
   {
     "name": "Agent Deems",
-    "real_name": null,
+    "real_name": "Deems",
     "deck": "Agent of SWORD",
     "count_of_issue_appearances": 71,
     "gender": "Male"
@@ -12600,13 +12551,6 @@
     "gender": "Male"
   },
   {
-    "name": "Brian Tanner",
-    "real_name": null,
-    "deck": "a character in the Alf comic and on the Alf television series.",
-    "count_of_issue_appearances": 69,
-    "gender": "Male"
-  },
-  {
     "name": "Zelda Kurtzberg",
     "real_name": "Zelda Kurtzberg",
     "deck": "Zelda was a young girl whom worked in a cafe in Greenwich Village, where the original X-Men used to go. She became X-Man Iceman's girlfriend.",
@@ -12720,7 +12664,7 @@
   },
   {
     "name": "Doyle Dormammu",
-    "real_name": null,
+    "real_name": "Doyle Dormammu",
     "deck": "Doyle is half-Faltine, son of Dormammu, enrolled at Strange Academy.",
     "count_of_issue_appearances": 69,
     "gender": "Male"
@@ -12741,7 +12685,7 @@
   },
   {
     "name": "Tante Mattie",
-    "real_name": null,
+    "real_name": "Mattie Baptiste",
     "deck": "Tante Mattie has spiritual abilities, healing, and telepathic contact with those near death.",
     "count_of_issue_appearances": 68,
     "gender": "Female"
@@ -12892,13 +12836,6 @@
     "deck": null,
     "count_of_issue_appearances": 68,
     "gender": "None"
-  },
-  {
-    "name": "Kate Tanner",
-    "real_name": null,
-    "deck": "A character in the Alf comic and Alf television series.  ",
-    "count_of_issue_appearances": 67,
-    "gender": "Female"
   },
   {
     "name": "Ken Ellis",
@@ -13448,7 +13385,7 @@
   },
   {
     "name": "Geoffrey Wilder",
-    "real_name": null,
+    "real_name": "Geoffrey Wilder",
     "deck": "Geoffrey Wilder is a crime boss in Los Angeles, and a member of the Pride. He is also the husband of Catherine Wilder, and father of Alex Wilder; a member of the Runaways.",
     "count_of_issue_appearances": 64,
     "gender": "Male"
@@ -13532,7 +13469,7 @@
   },
   {
     "name": "Algernon Crowe",
-    "real_name": null,
+    "real_name": "Algernon Crowe",
     "deck": "A dark mage who sold his soul to Mephisto. He was a founding member of MyS-Tech, and later one of the Techno-Wizards.",
     "count_of_issue_appearances": 63,
     "gender": "Male"
@@ -13588,7 +13525,7 @@
   },
   {
     "name": "Blackjack O'Hare",
-    "real_name": null,
+    "real_name": "Blackjack O'Hare",
     "deck": "Blackjack O'Hare is a skilled mercenary from Halfworld",
     "count_of_issue_appearances": 63,
     "gender": "Male"
@@ -13606,13 +13543,6 @@
     "deck": "Gambit's cat",
     "count_of_issue_appearances": 63,
     "gender": "None"
-  },
-  {
-    "name": "Black Krrsantan",
-    "real_name": null,
-    "deck": "A Wookiee Bounty Hunter, sometimes working with Boba Fett. Krrsantan was exiled from Kashyyyk and found himself in the employment of Jabba the Hutt and later worked alongside Doctor Aphra.",
-    "count_of_issue_appearances": 63,
-    "gender": "Male"
   },
   {
     "name": "Aero",
@@ -13860,13 +13790,6 @@
     "gender": "Female"
   },
   {
-    "name": "Circuit Breaker",
-    "real_name": "Josie Beller",
-    "deck": "Josie Beller was a talented computer programmer until one day when she was paralyzed by the Decepticon Shockwave. She regained her mobility through a suit of printed circuits and took to a life of destroying robots.",
-    "count_of_issue_appearances": 61,
-    "gender": "Female"
-  },
-  {
     "name": "Ezekiel",
     "real_name": "Ezekiel Sims",
     "deck": "Ezekiel Sims was a rich businessman who, in his younger years, ritualistically gained powers similar to those of Spider-Man. He wanted to use his powers to be a hero, but initially used them to found a corporation and became a member of the Spider-Society. He helped Spider-Man deal with Morlurn and many other beings who were after Spider-Totems.",
@@ -13889,7 +13812,7 @@
   },
   {
     "name": "Morgana Blessing",
-    "real_name": null,
+    "real_name": "Morgana Blessing",
     "deck": "A best-selling author of both fiction and non-fiction works, Morgana was a love interest to both Doctor Strange and his brother, Victor Strange.",
     "count_of_issue_appearances": 61,
     "gender": "Female"
@@ -13903,7 +13826,7 @@
   },
   {
     "name": "Susan Austin",
-    "real_name": null,
+    "real_name": "Susan Austin",
     "deck": "A close friend to Eric Masterson whom sacrificed her own life to save that of Kevin and his mother.",
     "count_of_issue_appearances": 61,
     "gender": "Female"
@@ -14001,7 +13924,7 @@
   },
   {
     "name": "Jim Lathrop",
-    "real_name": null,
+    "real_name": "Jim Lathrop",
     "deck": null,
     "count_of_issue_appearances": 61,
     "gender": "Male"
@@ -14018,13 +13941,6 @@
     "real_name": "Sofia Yong",
     "deck": "A member of the Outliers",
     "count_of_issue_appearances": 61,
-    "gender": "Female"
-  },
-  {
-    "name": "Lynn Tanner",
-    "real_name": null,
-    "deck": "a character in the Alf comic and on the Alf telvision series.",
-    "count_of_issue_appearances": 60,
     "gender": "Female"
   },
   {
@@ -14099,7 +14015,7 @@
   },
   {
     "name": "Oneg the Prober",
-    "real_name": null,
+    "real_name": "Oneg",
     "deck": "Member of the enigmatic and powerful Celestials.",
     "count_of_issue_appearances": 60,
     "gender": "Male"
@@ -14141,7 +14057,7 @@
   },
   {
     "name": "Jemiah the Analyzer",
-    "real_name": null,
+    "real_name": "Jemiah",
     "deck": "Jemiah the Analyzer is a member of the race of cosmic beings known as Celestials. He has been a part of the 1st, 2nd, 3rd, and 4th of the Celestial hosts that have visited Earth and other planets that the Celestials have conducted their genetic experiments on.",
     "count_of_issue_appearances": 60,
     "gender": "None"
@@ -14152,13 +14068,6 @@
     "deck": "The surrogate mother and creator of X-23. It was recently revealed that she is X-23's biological mother due to her healing factor using some of Sarah's DNA to repair her embryonic cells.",
     "count_of_issue_appearances": 60,
     "gender": "Female"
-  },
-  {
-    "name": "Oscar Pig",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 60,
-    "gender": "Male"
   },
   {
     "name": "Sabrina Morrell",
@@ -14204,7 +14113,7 @@
   },
   {
     "name": "Doctor Sun",
-    "real_name": null,
+    "real_name": "Sun",
     "deck": "Doctor Sun is a Chinese criminal scientist whose brain was removed and connected to China's most advanced computers. He was an enemy of the Fantastic Four, Nova and Dracula.",
     "count_of_issue_appearances": 59,
     "gender": "Male"
@@ -14225,7 +14134,7 @@
   },
   {
     "name": "Lindy Reynolds",
-    "real_name": null,
+    "real_name": "Lindy Lee-Reynolds",
     "deck": "Lindy Reynolds was the wife of Robert Reynolds, the superhero better known as The Sentry.",
     "count_of_issue_appearances": 59,
     "gender": "Female"
@@ -14393,7 +14302,7 @@
   },
   {
     "name": "Tamara Rahn",
-    "real_name": null,
+    "real_name": "Tamara Rahn",
     "deck": "She is an alien of a water-breathing extraterrestrial Banari race from the planet Laab.",
     "count_of_issue_appearances": 58,
     "gender": "Female"
@@ -14428,7 +14337,7 @@
   },
   {
     "name": "Gena Landers",
-    "real_name": null,
+    "real_name": "Gena Landers",
     "deck": "Gena manages and works in her own diner. She  was one of Jake Lockely's (Moon Knight) street contacts.",
     "count_of_issue_appearances": 58,
     "gender": "Female"
@@ -14439,13 +14348,6 @@
     "deck": "Former Dora Milaje , Queen of the Jabari tribe,  possible future leader of the Jabari tribe/ White Gorilla Cult.",
     "count_of_issue_appearances": 58,
     "gender": "Female"
-  },
-  {
-    "name": "Grand Slam",
-    "real_name": "James J. Barney",
-    "deck": "Grand Slam is one of the original members of the G.I. Joe team. He was the team's original laser artillery soldier.",
-    "count_of_issue_appearances": 58,
-    "gender": "Male"
   },
   {
     "name": "Arthur Stacy",
@@ -14652,7 +14554,7 @@
   },
   {
     "name": "Kobak Never-Held",
-    "real_name": null,
+    "real_name": "Kobak",
     "deck": "Kobak is an Arakko mutant.",
     "count_of_issue_appearances": 58,
     "gender": "Male"
@@ -14820,14 +14722,14 @@
   },
   {
     "name": "Barney Bushkin",
-    "real_name": null,
+    "real_name": "Barney Bushkin",
     "deck": "Editer in Chief of the Daily Globe, the Daily Bugle's main competitor in New York City.",
     "count_of_issue_appearances": 57,
     "gender": "Male"
   },
   {
     "name": "Senator Harrington Byrd",
-    "real_name": null,
+    "real_name": "Harrington Byrd",
     "deck": "Harrington Byrd was a politician. He sought to have Iron Man release his secrets to the federal government of the United States.",
     "count_of_issue_appearances": 57,
     "gender": "Male"
@@ -14987,13 +14889,6 @@
     "gender": "Male"
   },
   {
-    "name": "Emirate Xaaron",
-    "real_name": null,
-    "deck": "The leader of the Autobot underground resistance movement and was the chairman of the Council of Autobot Elders.",
-    "count_of_issue_appearances": 56,
-    "gender": "Male"
-  },
-  {
     "name": "Julia Winters",
     "real_name": "Julie Winter",
     "deck": "Julia Winters was a baby girl adopted by Nomad. Her mother was a drug addict who could not take care of her. Nomad named her Bucky and attempted to raise her.",
@@ -15012,13 +14907,6 @@
     "real_name": "Ikol ",
     "deck": "Ikol is the soul of Loki that is in the form of a magpie",
     "count_of_issue_appearances": 56,
-    "gender": "Male"
-  },
-  {
-    "name": "Hokey Wolf",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 55,
     "gender": "Male"
   },
   {
@@ -15121,7 +15009,7 @@
   },
   {
     "name": "Jack Frost",
-    "real_name": null,
+    "real_name": "Isabrot",
     "deck": "Cast out of Asgard by the Frost Giants for being born puny, Jack Frost lives in the Arctic North unaware of his otherworldly past.",
     "count_of_issue_appearances": 55,
     "gender": "Male"
@@ -15254,7 +15142,7 @@
   },
   {
     "name": "Billie Morales",
-    "real_name": null,
+    "real_name": "Billie Morales",
     "deck": "Little sister of Miles Morales.",
     "count_of_issue_appearances": 55,
     "gender": "Female"
@@ -15265,20 +15153,6 @@
     "deck": "Galura is a new citizen of Krakoa.",
     "count_of_issue_appearances": 55,
     "gender": "Female"
-  },
-  {
-    "name": "Bertie Mouse",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 55,
-    "gender": "None"
-  },
-  {
-    "name": "Andy Wolf",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 55,
-    "gender": "None"
   },
   {
     "name": "Paul Rabin",
@@ -15366,7 +15240,7 @@
   },
   {
     "name": "Neal Conan",
-    "real_name": null,
+    "real_name": "Neal Conan",
     "deck": "A sympathetic journalist",
     "count_of_issue_appearances": 54,
     "gender": "Male"
@@ -15464,7 +15338,7 @@
   },
   {
     "name": "Tefral the Surveyor",
-    "real_name": null,
+    "real_name": "Tefral",
     "deck": "Tefral the Surveyor's sole duty is to survey every species The Celestials encounter on a planet. ",
     "count_of_issue_appearances": 54,
     "gender": "None"
@@ -15478,7 +15352,7 @@
   },
   {
     "name": "Hargen the Measurer",
-    "real_name": null,
+    "real_name": "Hargen",
     "deck": "Hargen the Measurer is a Celestial in charge of measuring.",
     "count_of_issue_appearances": 54,
     "gender": "None"
@@ -15506,7 +15380,7 @@
   },
   {
     "name": "Winston Frost",
-    "real_name": null,
+    "real_name": "Winston Frost",
     "deck": "Winston Frost is the father of Christian, Adrienne, Cordelia and Emma Frost as well as the second richest man in the state of Massachusetts.",
     "count_of_issue_appearances": 54,
     "gender": "Male"
@@ -15618,7 +15492,7 @@
   },
   {
     "name": "Killian Devo",
-    "real_name": null,
+    "real_name": "Killian Devo",
     "deck": "Former S.T.R.I.K.E operative and Director of Orchis.",
     "count_of_issue_appearances": 54,
     "gender": "Male"
@@ -15632,7 +15506,7 @@
   },
   {
     "name": "Jon Ironfire",
-    "real_name": null,
+    "real_name": "Jon Ironfire",
     "deck": "A mutant of Arakko and soldier of White Sword. He sided with Storm in her war against Genesis.",
     "count_of_issue_appearances": 54,
     "gender": "Male"
@@ -15891,7 +15765,7 @@
   },
   {
     "name": "Opal Vetiver",
-    "real_name": null,
+    "real_name": "Opal Vetiver",
     "deck": "Bioengineer and member of Hordeculture.",
     "count_of_issue_appearances": 53,
     "gender": "Female"
@@ -16170,13 +16044,6 @@
     "gender": "None"
   },
   {
-    "name": "Footloose",
-    "real_name": "Andrew D. Meyers",
-    "deck": "Footloose is a member of the G.I. Joe team.",
-    "count_of_issue_appearances": 51,
-    "gender": "Male"
-  },
-  {
     "name": "Stunner",
     "real_name": "Angelina Brancale",
     "deck": "A former lover of Doctor Octopus and enemy of Spider-Man who uses virtual reality to become her alter-ego.",
@@ -16234,7 +16101,7 @@
   },
   {
     "name": "Police Chief Tai",
-    "real_name": null,
+    "real_name": "Tai",
     "deck": "Police Chief Tai keeps the filth off the streets of Madripoor with the help of Wolverine.",
     "count_of_issue_appearances": 51,
     "gender": "Male"
@@ -16276,7 +16143,7 @@
   },
   {
     "name": "Gudrun Tyburn",
-    "real_name": null,
+    "real_name": "Gudrun Tyburn",
     "deck": "Sorceress who sold her soul to Mephisto. She is a member of The MyS-Tech board.",
     "count_of_issue_appearances": 51,
     "gender": "Female"
@@ -16458,7 +16325,7 @@
   },
   {
     "name": "Augusta Bromes",
-    "real_name": null,
+    "real_name": "Augusta Bromes",
     "deck": "Agrochemist and member of Hordeculture.",
     "count_of_issue_appearances": 51,
     "gender": "Female"
@@ -16486,7 +16353,7 @@
   },
   {
     "name": "Syzya of the Smoke",
-    "real_name": null,
+    "real_name": "Syzya",
     "deck": "Syzya of the Smoke is a Mutant of Arakko.",
     "count_of_issue_appearances": 51,
     "gender": "Female"
@@ -16668,7 +16535,7 @@
   },
   {
     "name": "Carmilla Frost",
-    "real_name": null,
+    "real_name": "Carmilla Frost",
     "deck": "Camilla is one of Killraven's Freedom Fighters.  She is a mother, a wife and Medic.",
     "count_of_issue_appearances": 50,
     "gender": "Female"
@@ -17701,13 +17568,6 @@
     "deck": "An artificial intelligence patterned after Tony Stark, who temporarily filled in for his creator following Civil War II.",
     "count_of_issue_appearances": 47,
     "gender": "Male"
-  },
-  {
-    "name": "Ginch",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 47,
-    "gender": "None"
   },
   {
     "name": "Miss Patriot",
@@ -18870,13 +18730,6 @@
     "deck": null,
     "count_of_issue_appearances": 43,
     "gender": "Male"
-  },
-  {
-    "name": "E. Claude Pennygrabber",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 43,
-    "gender": "None"
   },
   {
     "name": "Bedlam",
@@ -21735,13 +21588,6 @@
     "gender": "Male"
   },
   {
-    "name": "Deep-Six",
-    "real_name": "Malcolm R. Willoughby",
-    "deck": "Deep Six is a member of the G.I. Joe team.",
-    "count_of_issue_appearances": 35,
-    "gender": "Male"
-  },
-  {
     "name": "Timeslip",
     "real_name": "Rina Patel",
     "deck": "Timeslip can send her mind along any point of her personal timeline, and manipulate time to simulate super-speed.",
@@ -23590,13 +23436,6 @@
     "gender": "Male"
   },
   {
-    "name": "Frenchy Rabbit",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 31,
-    "gender": "None"
-  },
-  {
     "name": "Discus",
     "real_name": "Tim Stuart",
     "deck": "Discus is a mercenary for hire who normally works with his brother Stiletto and they have come into conflict with numerous heroes including Luke Cage, Iron Fist and Spider Man.",
@@ -23609,13 +23448,6 @@
     "deck": "The manifestation of balance of the Counter-Earth",
     "count_of_issue_appearances": 31,
     "gender": "Female"
-  },
-  {
-    "name": "Horrorshow",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 31,
-    "gender": "Male"
   },
   {
     "name": "Butch",
@@ -24680,13 +24512,6 @@
     "deck": "Shi-Hua as Sister Hammer is champion of the Five Weapons Society.",
     "count_of_issue_appearances": 30,
     "gender": "Female"
-  },
-  {
-    "name": "Wacky Willie",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 30,
-    "gender": "None"
   },
   {
     "name": "Morgan Red",
@@ -26211,13 +26036,6 @@
     "name": "Soft Master",
     "real_name": null,
     "deck": "The Soft Master is part of the Arashikage clan in Japan. He was part of the head of the clan with his brother the Hard Master and his nephew the Young Master (Storm Shadow).",
-    "count_of_issue_appearances": 27,
-    "gender": "Male"
-  },
-  {
-    "name": "Stormavik",
-    "real_name": null,
-    "deck": "A member of the Russian Oktober Guard.",
     "count_of_issue_appearances": 27,
     "gender": "Male"
   },
@@ -28686,13 +28504,6 @@
     "gender": "Male"
   },
   {
-    "name": "General Austin",
-    "real_name": "Austin",
-    "deck": null,
-    "count_of_issue_appearances": 24,
-    "gender": "Male"
-  },
-  {
     "name": "Adva",
     "real_name": "Adva",
     "deck": "A member of the Dark Gods.",
@@ -29232,13 +29043,6 @@
     "gender": "Female"
   },
   {
-    "name": "Colonel Brekhov",
-    "real_name": null,
-    "deck": "G.I.Joe comics character, leader of the Oktober Guard.",
-    "count_of_issue_appearances": 24,
-    "gender": "Male"
-  },
-  {
     "name": "Rook'shir",
     "real_name": "Rook'shir",
     "deck": "Rook'shir was the original wielder of the Phoenix Blade. He is the ancestor of Korvus.",
@@ -29662,13 +29466,6 @@
     "name": "Blind Master",
     "real_name": null,
     "deck": "An African-American high-ranked ninja and member of the Arashikage Clan, who once was trained by Hard Master, both Snake Eyes' and Storm Shadow's sensei.",
-    "count_of_issue_appearances": 23,
-    "gender": "Male"
-  },
-  {
-    "name": "Schrage",
-    "real_name": null,
-    "deck": null,
     "count_of_issue_appearances": 23,
     "gender": "Male"
   },
@@ -31818,20 +31615,6 @@
     "name": "Rabble Rouser",
     "real_name": "Dr. Weinberg",
     "deck": null,
-    "count_of_issue_appearances": 21,
-    "gender": "Male"
-  },
-  {
-    "name": "Dojo",
-    "real_name": "Michael P. Russo",
-    "deck": "Dojo was the member of the G.I. Joe Ninja Force.",
-    "count_of_issue_appearances": 21,
-    "gender": "Male"
-  },
-  {
-    "name": "Nunchuk",
-    "real_name": "Ralph Baducci",
-    "deck": "Nunchuk is a member of the G.I. Joe Ninja Force",
     "count_of_issue_appearances": 21,
     "gender": "Male"
   },
@@ -34664,13 +34447,6 @@
     "gender": "Male"
   },
   {
-    "name": "Toughy Cat",
-    "real_name": "Toughy Cat",
-    "deck": "Toughy Cat was part Timely's answer to the Funny Animals craze from the 1950's! He was the main enemy to Ziggy Seal and Silly Seal",
-    "count_of_issue_appearances": 19,
-    "gender": "Male"
-  },
-  {
     "name": "Arizona Girl",
     "real_name": null,
     "deck": " Arizona Annie is a western crimefighter",
@@ -35290,41 +35066,6 @@
     "name": "Chainsaw",
     "real_name": null,
     "deck": "Leader of a biker gang",
-    "count_of_issue_appearances": 18,
-    "gender": "Male"
-  },
-  {
-    "name": "Dinky Dalton",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 18,
-    "gender": "Male"
-  },
-  {
-    "name": "Babu The Genie",
-    "real_name": null,
-    "deck": "Babu is the apprentice to Jeannie in the Hanna-Barbera series Jeannie.",
-    "count_of_issue_appearances": 18,
-    "gender": "Male"
-  },
-  {
-    "name": "Dread Baron",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 18,
-    "gender": "Male"
-  },
-  {
-    "name": "Orful Octopus",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 18,
-    "gender": "Male"
-  },
-  {
-    "name": "Dastardly Dalton",
-    "real_name": null,
-    "deck": null,
     "count_of_issue_appearances": 18,
     "gender": "Male"
   },
@@ -36778,13 +36519,6 @@
     "gender": "Male"
   },
   {
-    "name": "Ninth Sister",
-    "real_name": "Masana Tide",
-    "deck": "An Inquisitor of the Galactic Empire who has a strong hatred of Darth Vader.",
-    "count_of_issue_appearances": 18,
-    "gender": "Female"
-  },
-  {
     "name": "Pkzkrfmknna",
     "real_name": "Pkzkrfmknna",
     "deck": "A space arcanologist. She searches the cosmos for arcane objects she can sell.",
@@ -37007,20 +36741,6 @@
     "deck": "Hel Wolf is a Hellhound that aided Loki. He is the father of seven puppies, including Thori. Hel Wolf was killed after he was devoured by Surtur.",
     "count_of_issue_appearances": 17,
     "gender": "Male"
-  },
-  {
-    "name": "Daisy Mayhem",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 17,
-    "gender": "Female"
-  },
-  {
-    "name": "Fondoo The Magician",
-    "real_name": null,
-    "deck": "He was an Evil Magician whose spells almost never worked.",
-    "count_of_issue_appearances": 17,
-    "gender": "None"
   },
   {
     "name": "Rojas",
@@ -40556,13 +40276,6 @@
     "deck": "He is the Superhero of the Ren and Stimpy show. His alter-ego is pastor Toastman a cool youth deacon, but when he needs to transform he shouts out \"powered toast maaaaaaaan!\". His Catchphrase/slogan is \"Leave everything to me!\"",
     "count_of_issue_appearances": 15,
     "gender": "Male"
-  },
-  {
-    "name": "Dirty Dalton",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 15,
-    "gender": "None"
   },
   {
     "name": "Sano Orii",
@@ -44411,13 +44124,6 @@
     "name": "Lightning",
     "real_name": null,
     "deck": "Lightning is Masked Raider's horse.",
-    "count_of_issue_appearances": 14,
-    "gender": "Male"
-  },
-  {
-    "name": "Cylo",
-    "real_name": null,
-    "deck": "Cylo was a human doctor who served the Galactic Empire. Unbound by any sense of ethics, Cylo specialized in cybernetic enhancement and was responsible for creating some of the Empire's most menacing defenders. Cylo saved his greatest invention for himself, securing near-immortality by uploading a replicated version of his mind to a supercomputer.",
     "count_of_issue_appearances": 14,
     "gender": "Male"
   },
@@ -55216,13 +54922,6 @@
     "gender": "Male"
   },
   {
-    "name": "Joy Meadows",
-    "real_name": null,
-    "deck": "Television journalist who aided the Autobots on some occasions.",
-    "count_of_issue_appearances": 10,
-    "gender": "Female"
-  },
-  {
     "name": "Talita",
     "real_name": null,
     "deck": "Angel of Death",
@@ -56343,13 +56042,6 @@
     "gender": "Male"
   },
   {
-    "name": "Thanoth",
-    "real_name": null,
-    "deck": "Thanoth was a highly skilled inspector under the employment of the Galactic Empire. He was tasked with tracking down a large sum of stolen credits, under the supervision of Darth Vader.",
-    "count_of_issue_appearances": 10,
-    "gender": "Male"
-  },
-  {
     "name": "Imani Greene",
     "real_name": "Imani Greene",
     "deck": "Imani is the RA for Starbrand, Nightmask and Squirrel Girl at Empire State University. She is initially introduced as a supporting character and Starbrand's love interest.",
@@ -56775,20 +56467,6 @@
     "deck": "\"The Campus Captain America,\" a college student in Boston who took up the mantle of Captain America to protect her roommate.",
     "count_of_issue_appearances": 10,
     "gender": "Female"
-  },
-  {
-    "name": "Chester Chipmunk",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 10,
-    "gender": "None"
-  },
-  {
-    "name": "Posty",
-    "real_name": null,
-    "deck": null,
-    "count_of_issue_appearances": 10,
-    "gender": "None"
   },
   {
     "name": "Harold Murch",

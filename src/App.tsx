@@ -12,6 +12,17 @@ type IndexedCharacter = { character: Character; index: number }
 
 const appearanceThresholds = [1000, 500, 100, 50, 10]
 const placeholderNames = new Set(["unknown", "unrevealed"])
+const compoundSurnameParts = new Map<string, string[]>([
+  ["amaquelinboltagon", ["amaquelin", "boltagon"]],
+  ["brantleeds", ["brant", "leeds"]],
+  ["greysummers", ["grey", "summers"]],
+  ["rossbanner", ["ross", "banner"]],
+  ["mastersgrimm", ["masters", "grimm"]],
+  ["moycastle", ["moy", "castle"]],
+  ["halebrown", ["hale", "brown"]],
+  ["leereynolds", ["lee", "reynolds"]],
+  ["taylortemple", ["taylor", "temple"]],
+])
 const surnameParticles = new Set([
   "al",
   "ap",
@@ -149,11 +160,15 @@ function App() {
         )
         const index = new Map<string, number[]>()
         sorted.forEach((character, characterIndex) => {
+          const surname = character.real_name
+            ? getSurname(character.real_name)
+            : ""
           const names = new Set(
             [
               character.name,
               character.real_name ?? "",
-              character.real_name ? getSurname(character.real_name) : "",
+              surname,
+              ...(compoundSurnameParts.get(normalizeName(surname)) ?? []),
             ]
               .map(normalizeName)
               .filter((name) => name && !placeholderNames.has(name)),
