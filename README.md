@@ -10,17 +10,31 @@ Currently, two official plugins are available:
 ## Setup
 
 1. Add your Comic Vine API key to `.env` as `COMICVINE_API_KEY=your_key`.
-2. Run `npm run fetch:characters` to fetch characters published by Marvel Comics. The script resolves the publisher ID, follows Comic Vine's 100-result pagination, and writes the archive to `public/data/marvel-characters.json`.
-3. Run `npm run dev` to start the quiz.
+2. Run `npm run fetch:characters` to fetch characters published by Marvel Comics. The script resolves the publisher ID, follows Comic Vine's 100-result pagination, and writes the raw archive to `data/raw/marvel-characters.json`.
+3. Run `npm run parse:characters` to build the quiz archive at `public/data/marvel-characters.json`.
+4. Run `npm run dev` to start the quiz.
 
 The API key is only read by the Node.js import script and is never included in the browser bundle. Keep `.env` private. See the [Comic Vine API documentation](https://comicvine.gamespot.com/api/documentation) for endpoint and usage details.
+
+## Character aliases
+
+To accept extra answers for a character, add an entry to the `characterAliases` map in `scripts/parse-marvel-characters.mjs`:
+
+```js
+const characterAliases = new Map([
+  ["Spider-Man", ["Friendly Neighborhood Spider-Man", "Spidey"]],
+])
+```
+
+Aliases are matched with the same name normalization as character names. Running `npm run parse:characters` writes the configured aliases to the public archive; `npm run fetch:characters` only updates the raw archive.
 
 ## Commands
 
 - `npm run dev`: start the development server.
 - `npm run build`: type-check and build for production.
 - `npm run lint`: lint the project.
-- `npm run fetch:characters`: replace the local archive with Comic Vine data.
+- `npm run fetch:characters`: replace the raw archive with Comic Vine data.
+- `npm run parse:characters`: build the quiz archive from the raw archive.
 
 ## React Compiler
 

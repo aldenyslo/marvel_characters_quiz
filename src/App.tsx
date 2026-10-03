@@ -4,6 +4,7 @@ import "./App.css"
 type Character = {
   name: string
   real_name?: string | null
+  aliases?: string[]
   count_of_issue_appearances: number
 }
 
@@ -48,7 +49,7 @@ const surnameParticles = new Set([
   "zur",
 ])
 const generationalSuffixPattern =
-  /,?\s+(?:jr\.?|junior|sr\.?|senior|ii|iii|iv|v|vi|vii|viii|ix|x|\d+(?:st|nd|rd|th))$/i
+  /,?\s+(?:jr\.?|junior|sr\.?|senior|ii|iii|iv|v|vi|vii|viii|ix|\d+(?:st|nd|rd|th))$/i
 
 function normalizeName(value: string): string {
   return value
@@ -168,6 +169,7 @@ function App() {
             [
               character.name,
               character.real_name ?? "",
+              ...(character.aliases ?? []),
               surname,
               ...(compoundSurnameParts.get(normalizeName(surname)) ?? []),
             ]

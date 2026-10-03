@@ -14,12 +14,7 @@ const rawOutputPath = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "../data/raw/marvel-characters.json",
 )
-const parsedOutputPath = resolve(
-  dirname(fileURLToPath(import.meta.url)),
-  "../public/data/marvel-characters.json",
-)
 const temporaryRawOutputPath = `${rawOutputPath}.tmp`
-const temporaryParsedOutputPath = `${parsedOutputPath}.tmp`
 const fields = [
   "id",
   "name",
@@ -106,24 +101,11 @@ async function readExistingCharacters(filePath) {
 
 async function writeCharacters(filePath, characters) {
   await mkdir(dirname(filePath), { recursive: true })
-  const temporaryFilePath =
-    filePath === rawOutputPath
-      ? temporaryRawOutputPath
-      : temporaryParsedOutputPath
-  await writeFile(temporaryFilePath, `${JSON.stringify(characters, null, 2)}\n`)
-  await rename(temporaryFilePath, filePath)
-}
-
-function normalizeParsedCharacter(character) {
-  const count = Number(character.count_of_issue_appearances ?? 0)
-
-  return {
-    name: character.name ?? null,
-    real_name: character.real_name ?? null,
-    deck: character.deck ?? null,
-    count_of_issue_appearances: Number.isFinite(count) ? count : 0,
-    gender: character.gender?.name ?? character.gender ?? null,
-  }
+  await writeFile(
+    temporaryRawOutputPath,
+    `${JSON.stringify(characters, null, 2)}\n`,
+  )
+  await rename(temporaryRawOutputPath, filePath)
 }
 
 const publisherPayload = await request("publishers", {
@@ -199,16 +181,8 @@ if (characters.length !== characterRefs.length) {
   )
 }
 
-const parsedCharacters = characters
-  .filter((character) => Number(character.count_of_issue_appearances ?? 0) >= 5)
-  .map(normalizeParsedCharacter)
-
 await writeCharacters(rawOutputPath, characters)
-await writeCharacters(parsedOutputPath, parsedCharacters)
 
 console.log(
   `Saved ${characters.length} raw Marvel characters to ${rawOutputPath}`,
-)
-console.log(
-  `Saved ${parsedCharacters.length} parsed Marvel characters to ${parsedOutputPath}`,
 )

@@ -96,6 +96,52 @@ const realNamePatches = {
   "Syzya of the Smoke": "Syzya",
   "Carmilla Frost": "Carmilla Frost",
 }
+const characterAliases = new Map([
+  // Add entries as ["Character name", ["alias", "another alias"]].
+  ["Betsy Braddock", ["Psylocke", "Captain Britain"]],
+  ["Carol Danvers", ["Captain Marvel"]],
+  ["Hank Pym", ["Ant-Man"]],
+  ["Norman Osborn", ["Green Goblin"]],
+  ["Sam Wilson", ["Falcon", "Captain America"]],
+  ["Bucky Barnes", ["Winter Soldier"]],
+  ["Flash Thompson", ["Agent Venom"]],
+  ["Moira MacTaggert", ["Moira X"]],
+  ["Madrox", ["Multiple Man"]],
+  ["Thunderbolt Ross", ["Red Hulk"]],
+  ["Quentin Quire", ["Kid Omega"]],
+  ["Miles Morales", ["Spider-Man"]],
+  ["Madelyne Pryor", ["Goblin Queen"]],
+  ["Eddie Brock", ["Venom"]],
+  ["Jim Hammond", ["Human Torch"]],
+  ["Monica Rambeau", ["Photon", "Spectrum"]],
+  ["Drax the Destroyer", ["Drax"]],
+  ["Kraven the Hunter", ["Kraven"]],
+  ["Kamala Khan", ["Ms. Marvel"]],
+  ["Sharon Carter", ["Agent 13"]],
+  ["Ben Reilly", ["Scarlet Spider"]],
+  ["Kate Bishop", ["Hawkeye"]],
+  ["Amadeus Cho", ["Brawn"]],
+  ["Sam Alexander", ["Nova"]],
+  ["Heather McNeil Hudson", ["Vindicator"]],
+  ["Abe Jenkins", ["Beetle"]],
+  ["Cassie Lang", ["Stature"]],
+  ["John Jameson", ["Man-Wolf"]],
+  ["Julia Carpenter", ["Spider-Woman", "Madame Web"]],
+  ["Noh-Varr", ["Marvel Boy"]],
+  ["Rusty Collins", ["Firefist"]],
+  ["Andreas von Strucker", ["Fenris"]],
+  ["Cletus Kasady", ["Carnage"]],
+  ["Angel Salvadore", ["Tempest"]],
+  ["Jamie Braddock", ["Monarch"]],
+  ["Jack Monroe", ["Nomad"]],
+  ["Andrea von Strucker", ["Fenris"]],
+  ["Eric O'Grady", ["Ant-Man"]],
+  ["Heather McDaniel Hudson", ["Sasquatch"]],
+  ["Hobie Brown", ["Prowler", "Hornet"]],
+  ["Ava Ayala", ["White Tiger"]],
+  ["Nadia van Dyne", ["Wasp"]],
+  ["Kevin Masterson", ["Thunderstrike"]],
+])
 
 const rawCharacters = JSON.parse(await readFile(rawInputPath, "utf8"))
 
@@ -142,6 +188,9 @@ const parsedCharacters = rawCharacters
       character.count_of_issue_appearances ?? 0,
     ),
     gender: mapGender(character.gender?.name ?? character.gender ?? null),
+    ...(characterAliases.has(character.name)
+      ? { aliases: characterAliases.get(character.name) }
+      : {}),
   }))
   .sort(
     (left, right) =>

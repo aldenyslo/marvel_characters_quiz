@@ -200,7 +200,11 @@
     "real_name": "Elizabeth Braddock",
     "deck": "British beauty Elizabeth Braddock is older twin sister of Captain Britain a mutant, former fashion model, and Charter Pilot. She is a long-standing member of the X-Men, Leader of Excalibur, and Founder of the reformed Captain Britain Corps, multi-versal alternate versions of herself.",
     "count_of_issue_appearances": 4758,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Psylocke",
+      "Captain Britain"
+    ]
   },
   {
     "name": "Scarlet Witch",
@@ -214,7 +218,10 @@
     "real_name": "Carol Susan Jane Danvers",
     "deck": "After encountering the Kree hero Captain Marvel, Carol Danvers was accidentally subjected to otherworldly radiation that transformed her into a superhuman warrior. Calling herself Ms. Marvel, she established herself as one of the most powerful and prominent heroes and respected member of the Avengers. She has now adopted the mantle of Captain Marvel for herself.",
     "count_of_issue_appearances": 4695,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Captain Marvel"
+    ]
   },
   {
     "name": "Nick Fury",
@@ -263,7 +270,10 @@
     "real_name": "Henry Jonathan Pym",
     "deck": "Hank Pym is a scientific genius, a founding member of the Avengers, the creator of Pym Particles and of Ultron, and a modern-day superhero who suffers from a Bipolar disorder. He has acted under many memorable identities such as Ant-Man, Giant Man, Goliath, Yellowjacket, and the Wasp. He is also the Earth's Scientist Supreme, as decreed by Eternity.",
     "count_of_issue_appearances": 3870,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Ant-Man"
+    ]
   },
   {
     "name": "Vision",
@@ -424,14 +434,21 @@
     "real_name": "Norman Virgil Osborn",
     "deck": "The amoral industrialist Norman Osborn was transformed by an experimental serum into the maniacal Green Goblin, and has endured over the decades as Spider-Man's most dreaded archenemy. Osborn is known for being the killer of Gwen Stacy, the architect of the Clone Saga, and the one-time director of S.H.I.E.L.D.",
     "count_of_issue_appearances": 2689,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Green Goblin"
+    ]
   },
   {
     "name": "Sam Wilson",
     "real_name": "Samuel Thomas Wilson",
     "deck": "A social worker turned hero, Sam Wilson's bleak outlook on life was wiped away the day he met Captain America. Using a winged costume and his remarkable combat prowess and avian telepathy, he became the Falcon - defender of Harlem, and eventually bearer of Captain America mantle.",
     "count_of_issue_appearances": 2655,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Falcon",
+      "Captain America"
+    ]
   },
   {
     "name": "Doctor Octopus",
@@ -522,7 +539,10 @@
     "real_name": "James Buchanan Barnes Junior",
     "deck": "Believed dead near the end of World War II only to have been found and brainwashed by the Soviets for the next 50 years, Captain America's former sidekick now continues to defend his country from the shadows against those who would threaten it as legendary spy and assassin, the Winter Soldier. He became the new Captain America to honor his friend Steve and he joined the Avengers. When Steve returned as Captain America, Bucky took on the identity of the Winter Soldier once again.",
     "count_of_issue_appearances": 2219,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Winter Soldier"
+    ]
   },
   {
     "name": "Kingpin",
@@ -543,7 +563,10 @@
     "real_name": "Eugene Thompson",
     "deck": "Flash frequently bullied Peter Parker but was actually Spider-Man's greatest fan. In time, Flash befriended Peter, became a decorated war hero, and eventually joined the Marvel superheroes as a symbiote host, first with Venom and then with Anti-Venom.",
     "count_of_issue_appearances": 2032,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Agent Venom"
+    ]
   },
   {
     "name": "Mr. Sinister",
@@ -571,7 +594,10 @@
     "real_name": "Moira Kinross",
     "deck": "Moira MacTaggert was once one of the world's leading authorities on genetic mutation and she has been revealed to be a mutant with the ability to reincarnate. ",
     "count_of_issue_appearances": 1965,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Moira X"
+    ]
   },
   {
     "name": "Apocalypse",
@@ -585,7 +611,10 @@
     "real_name": "James Arthur Madrox",
     "deck": "Jamie Madrox, also known as Multiple Man, is a mutant with the ability to create duplicates of himself through physical contact. These \"dupes\" can later be reabsorbed, along with all of their memories and experiences. Best known for his X-Factor history, he recently rejoined the newly reformed X-Corporation.",
     "count_of_issue_appearances": 1884,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Multiple Man"
+    ]
   },
   {
     "name": "Wonder Man",
@@ -725,7 +754,10 @@
     "real_name": "Thaddeus E. Ross",
     "deck": "Thaddeus \"Thunderbolt\" Ross is former U.S. military general. He is father of Bruce Banner's love Betty Ross and was archenemy of the Incredible Hulk. Ross made a deal with villains to be transformed into a Hulk himself. As the ruthless and cunning Red Hulk, he attempted to destroy his nemesis and take control of the country before seeking redemption as an Avenger. ",
     "count_of_issue_appearances": 1682,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Red Hulk"
+    ]
   },
   {
     "name": "Robbie Robertson",
@@ -774,7 +806,10 @@
     "real_name": "Quintavius Quirinius Quire",
     "deck": "Quentin Quire is an Omega-level mutant telepath, super-genius, and former student at the Xavier Institute.",
     "count_of_issue_appearances": 1552,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Kid Omega"
+    ]
   },
   {
     "name": "Sunfire",
@@ -872,7 +907,10 @@
     "real_name": "Miles Gonzalo Morales",
     "deck": "Originally created in the Ultimate Universe, this version of Spider-Man is a 16 year old kid named Miles Morales from Brooklyn who takes on the Spider-Man identity after Peter Parker's death. Miles discovers spider powers of his own after he was bitten by a spider 11 months before Peter's death, and uses these powers to be the best superhero he can be. Currently, Miles lives in the main Marvel Universe and is a member of the Champions.",
     "count_of_issue_appearances": 1447,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Spider-Man"
+    ]
   },
   {
     "name": "Red Skull",
@@ -991,7 +1029,10 @@
     "real_name": "Madelyne Pryor",
     "deck": "Madelyne Pryor is Cyclops's first wife, Cable's mother, and a clone of Jean Grey created by Mr. Sinister. After Cyclops abandoned her and her son, she was tricked and seduced by demons to harness great demonic power.",
     "count_of_issue_appearances": 1202,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Goblin Queen"
+    ]
   },
   {
     "name": "Black Knight",
@@ -1005,7 +1046,10 @@
     "real_name": "Edward Charles Allan Brock",
     "deck": "Eddie Brock bonded with the dark alien symbiote after it was discarded by Spider-Man, becoming the first Venom. Later, Brock became Anti-Venom, but the symbiote was lost during the events of Spider-Island. Brock has also been forcibly bonded to the Toxin Symbiote by the Crime-Master, but has reluctantly given it up to stop Carnage. Recently he has re-bonded with Venom.",
     "count_of_issue_appearances": 1188,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Venom"
+    ]
   },
   {
     "name": "Nova",
@@ -1075,7 +1119,10 @@
     "real_name": "James Hammond",
     "deck": "The original Human Torch, who fought in the second World War and was a member of the Invaders, is a synthetic human created by Professor Phineas T. Horton. He is also (publishing-wise) the first ever Marvel super-hero!",
     "count_of_issue_appearances": 1142,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Human Torch"
+    ]
   },
   {
     "name": "Firestar",
@@ -1180,7 +1227,11 @@
     "real_name": "Monica Rambeau",
     "deck": "After being exposed to extra-dimensional energy, Lt. Monica Rambeau gained the ability to manipulate all energies of the electromagnetic spectrum. She has gone by many code-names over the years whilst utilizing these abilities as a crime fighter. Monica has served alongside the Avengers in various incarnations and operated as their leader for a time.",
     "count_of_issue_appearances": 1072,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Photon",
+      "Spectrum"
+    ]
   },
   {
     "name": "Meggan",
@@ -1271,7 +1322,10 @@
     "real_name": "Sergei Kravinoff",
     "deck": "A famous big game hunter, who became a mercenary and later, developed an intense obsession with restoring honor to his name. Kraven has been known as a major threat for Spider-Man and leaving a legacy during his demise.",
     "count_of_issue_appearances": 1011,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Kraven"
+    ]
   },
   {
     "name": "Frenzy",
@@ -1292,7 +1346,10 @@
     "real_name": "Arthur Sampson Douglas",
     "deck": "After he and his family were killed by Thanos, Arthur Douglas was recreated as Drax the Destroyer by Mentor and Kronos with the sole purpose of destroying Thanos. He later joined the Guardians of the Galaxy.",
     "count_of_issue_appearances": 1005,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Drax"
+    ]
   },
   {
     "name": "Temper",
@@ -1334,7 +1391,10 @@
     "real_name": "Kamala Khan",
     "deck": "A polymorphic Pakistani-American teenager from New Jersey who, when exposed to the Terrigen Mists, became Ms. Marvel. She is an Inhuman/Mutant hybrid and a founding member of the adolescent superhero team The Champions. Kamala is a huge superhero fan with an endless supply of optimism.",
     "count_of_issue_appearances": 995,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Ms. Marvel"
+    ]
   },
   {
     "name": "Sentry",
@@ -1432,7 +1492,10 @@
     "real_name": "Sharon Carter",
     "deck": "Inspired by the tales of Captain America and her aunt Margaret, Sharon Carter decided to become an agent of S.H.I.E.L.D.",
     "count_of_issue_appearances": 917,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Agent 13"
+    ]
   },
   {
     "name": "Fantomex",
@@ -1761,7 +1824,10 @@
     "real_name": "Ben Reilly",
     "deck": "The second and most successful clone of Spider-Man created by the Jackal. A superhero known as the Scarlet Spider, Reilly later replaced Peter Parker for a time as Spider-Man after he found out that all this time he was the original and not Peter. Ben met his ultimate demise in the fight against the Green Goblin which led to Peter becoming Spider-Man once again, after he found out that he is the real Spider-Man after all.",
     "count_of_issue_appearances": 757,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Scarlet Spider"
+    ]
   },
   {
     "name": "Speedball",
@@ -1894,7 +1960,10 @@
     "real_name": "Katherine Elizabeth Bishop",
     "deck": "Inspired by Clint Barton, Kate took up the mantle of Hawkeye and became a member of the Young Avengers. When Clint returned, the two of them struck up an on-again, off-again partnership, with Clint supporting her as she becomes more and more involved in the world of the Avengers. ",
     "count_of_issue_appearances": 705,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Hawkeye"
+    ]
   },
   {
     "name": "Valeria Richards",
@@ -1957,14 +2026,20 @@
     "real_name": "Amadeus Cho",
     "deck": "The eighth smartest person on the planet, Amadeus Cho has a hypermind which allows him to run a virtually limitless amount of calculations in his head. Recently, he shouldered Banner's burden of being the Hulk, granting himself the power he always wanted and having to deal with his own monster. After a climactic fight in the heart of Manhattan where he reconciled his personalities, he's now a slimmed down Hulk with a new superhero identity, Brawn, who leads the Agents of Atlas in defending Asia.",
     "count_of_issue_appearances": 682,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Brawn"
+    ]
   },
   {
     "name": "Sam Alexander",
     "real_name": "Samuel Alexander",
     "deck": "Sam Alexander is a Nova Centurion and a member of the Nova Corps, an intergalactic peacekeeping force. He is also a member of the Avengers and the latest incarnation of Champions.",
     "count_of_issue_appearances": 681,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Nova"
+    ]
   },
   {
     "name": "Quasar",
@@ -2041,7 +2116,10 @@
     "real_name": "Heather McNeil Hudson",
     "deck": "Heather McNeil took over the leadership of Alpha Flight following the death of her husband Guardian, through the use of his Battle Suit. After her husband was revived and resumed the role of Guardian, Heather became the Vindicator and continued to be a member of Alpha Flight.",
     "count_of_issue_appearances": 653,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Vindicator"
+    ]
   },
   {
     "name": "Tempus",
@@ -2090,7 +2168,10 @@
     "real_name": "Abner Ronald Jenkins",
     "deck": "Growing tired of his mechanic job, Abe Jenkins created a suit of armor and became the Beetle. Originally a criminal, he changed his ways as a member of the Thunderbolts, Taking the name MACH-1.  Abe became a mainstay of the group and achieved legitimacy as a superhero.  As he's upgraded his armor, he's changed his name to reflect the version of his armor.",
     "count_of_issue_appearances": 626,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Beetle"
+    ]
   },
   {
     "name": "Deathbird",
@@ -2111,7 +2192,10 @@
     "real_name": "Cassandra Eleanor Lang",
     "deck": "The daughter of Scott Lang and a member of the Young Avengers. She has the same ability to shrink and grow in size as her father, gained through utilizing Pym Particles.",
     "count_of_issue_appearances": 622,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Stature"
+    ]
   },
   {
     "name": "Trish Tilby",
@@ -2146,7 +2230,10 @@
     "real_name": "John Jonah Jameson III",
     "deck": "John Jameson is an astronaut, a test pilot and for his father J. Jonah Jameson the archetype of a true hero unlike these “masked clowns” like Spider-man. John has also been transformed into a Werewolf-like creature called the Man-Wolf, and was once host to the Carnage Symbiote.",
     "count_of_issue_appearances": 609,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Man-Wolf"
+    ]
   },
   {
     "name": "Justice",
@@ -2377,7 +2464,11 @@
     "real_name": "Julia Cornwall Carpenter",
     "deck": "Julia Carpenter is the second heroine to take up the mantle of Spider-Woman, later changing her name to Arachne. After the events of the Grim Hunt she became the new Madame Web and is currently a watcher and guardian of the Spyders.",
     "count_of_issue_appearances": 557,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Spider-Woman",
+      "Madame Web"
+    ]
   },
   {
     "name": "Sersi",
@@ -2496,7 +2587,10 @@
     "real_name": "Noh-Varr",
     "deck": "Noh-Varr was the youngest member of a Kree diplomatic team that was blown out of the sky after reaching Earth. Noh-Varr was the only one who survived. He then vowed vengeance on all mankind but was later tasked with protecting them in the name of the Kree, becoming Captain Marvel and later the Protector. After being forced out of the Avengers, he would then become a part of the Young Avengers.",
     "count_of_issue_appearances": 521,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Marvel Boy"
+    ]
   },
   {
     "name": "Spider-Girl (Parker)",
@@ -2524,7 +2618,10 @@
     "real_name": "Russell Collins",
     "deck": "Russell \"Rusty\" Collins was a mutant who could create and manipulate heat and flame. He joined with many of the big mutant teams, however he didn't stay with any of them for too long. He shared a long-term relationship with fellow mutant Skids before his untimely death.",
     "count_of_issue_appearances": 513,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Firefist"
+    ]
   },
   {
     "name": "Silver Samurai",
@@ -2643,7 +2740,10 @@
     "real_name": "Andreas von Strucker",
     "deck": "Former terrorist and son of HYDRA's Baron Strucker, Andreas von Strucker abandoned his life of evil following the death of his older twin sister. Choosing to become a better man, he became the superhero Swordsman and joined the Thunderbolts on his quest to be the opposite of everything he'd been before.",
     "count_of_issue_appearances": 482,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Fenris"
+    ]
   },
   {
     "name": "Amanda Sefton",
@@ -2818,7 +2918,10 @@
     "real_name": "Cletus Kasady",
     "deck": "Cletus Kassady is a deranged and highly dangerous serial killer and long-time host to the Carnage symbiote.",
     "count_of_issue_appearances": 451,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Carnage"
+    ]
   },
   {
     "name": "Robert Kelly",
@@ -3231,7 +3334,10 @@
     "real_name": "Angel Salvadore",
     "deck": "Angel Salvadore is a mutant with an insectoid physiology including insectiod wings. Once a student at Xavier's Institute, she was depowered on M-Day. She then joined the New Warriors as Tempest. She regained her mutant abilities due to the spread of the Mothervine Virus.",
     "count_of_issue_appearances": 390,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Tempest"
+    ]
   },
   {
     "name": "Hedy Wolfe",
@@ -3259,7 +3365,10 @@
     "real_name": "James Braddock Jr.",
     "deck": "Jamie Braddock is the King of Avalon and the elder brother of Betsy and Brian Braddock. He perceives reality as an infinite web of strings that he can pull and manipulate.  His powers have driven him insane.",
     "count_of_issue_appearances": 384,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Monarch"
+    ]
   },
   {
     "name": "Darwin",
@@ -3427,7 +3536,10 @@
     "real_name": "Jack Monroe",
     "deck": "A former sidekick to Captain America, Jack Monroe abandoned his mentor when he became disillusioned with the hero's lack of finite action against the super-villains they fought. He later became the notorious serial killer known as Scourge. ",
     "count_of_issue_appearances": 361,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Nomad"
+    ]
   },
   {
     "name": "Veranke",
@@ -3462,7 +3574,10 @@
     "real_name": "Andrea Von Strucker",
     "deck": "Andrea and her younger twin brother shared the codename Fenris. She was bio-engineered in-utero and must be in contact with her twin brother to use her powers.  ",
     "count_of_issue_appearances": 356,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Fenris"
+    ]
   },
   {
     "name": "Two-Gun Kid",
@@ -3623,7 +3738,10 @@
     "real_name": "Eric O'Grady",
     "deck": "After stealing prototype Ant-Man armor from SHIELD, Eric O'Grady became the Irredeemable Ant-Man; the world's most unlikable superhero. He spend time as a member of the Initiative, The Thunderbolts, and the Secret Avengers before he was killed. He was reborn as an evil synthetic version of himself and went freelance with Taskmaster.",
     "count_of_issue_appearances": 337,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Ant-Man"
+    ]
   },
   {
     "name": "Smasher",
@@ -3966,7 +4084,10 @@
     "real_name": "Heather McDaniel Hudson",
     "deck": "Heather was previously bonded with the great beast Tanaraq and could morph into Sasquatch, but is now free of Tanaraq. She stayed with the Exiles as mission control.",
     "count_of_issue_appearances": 300,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Sasquatch"
+    ]
   },
   {
     "name": "Erg",
@@ -4106,7 +4227,11 @@
     "real_name": "Hobie Brown",
     "deck": "Hobie Brown is a brilliant inventor whom started out as a criminal known as the Prowler, but soon turned to a more heroic path and became a trusted ally of Spider-Man. He later gave up the Prowler identity and became the Hornet.",
     "count_of_issue_appearances": 286,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Prowler",
+      "Hornet"
+    ]
   },
   {
     "name": "Gabrielle Haller",
@@ -4372,7 +4497,10 @@
     "real_name": "Ava Ayala",
     "deck": "Ava Ayala is the younger sister of Hector Ayala (the original White Tiger) and the aunt of the former White Tiger (Angela Del Toro). She is an Avengers Academy graduate, and the current wielder of the mystical Jade Tiger Amulet.",
     "count_of_issue_appearances": 266,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "White Tiger"
+    ]
   },
   {
     "name": "Doctor Spectrum",
@@ -4491,7 +4619,10 @@
     "real_name": "Nadia van Dyne",
     "deck": "Daughter of Hank Pym and his first wife, Maria Trovaya. After escaping from the Red Room, she decided to use the alias of the Wasp.",
     "count_of_issue_appearances": 259,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Wasp"
+    ]
   },
   {
     "name": "Tinkerer",
@@ -6185,7 +6316,10 @@
     "real_name": "Kevin Masterson",
     "deck": "Son of the original Thunderstrike, Kevin Masterson has recently become the new Thunderstrike after inheriting the enchanted mace. An alternate take on him becoming the new Thunderstrike was told in the MC2 Universe, where he is a founding member of A-Next.",
     "count_of_issue_appearances": 170,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Thunderstrike"
+    ]
   },
   {
     "name": "Magus",
