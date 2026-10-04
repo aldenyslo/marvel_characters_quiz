@@ -4993,7 +4993,10 @@
     "real_name": "Martinique Wyngarde",
     "deck": "Martinique is the daughter of the original Mastermind Jason Wyngarde and half sister of Regan Wyngarde aka Lady Mastermind. Martinique has used both aliases during her stints as a member of incarnations of the Brotherhood and Sisterhood of Mutants",
     "count_of_issue_appearances": 233,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Mastermind"
+    ]
   },
   {
     "name": "Tippy-Toe",
@@ -5224,7 +5227,10 @@
     "real_name": "Jason Philip Macendale",
     "deck": "Jason Philip Macendale, former agent of CIA, turned from the first Jack O'Lantern to the second major Hobgoblin and once the host of Demogoblin. He was rebuilt as a cyborg and remained Hobgoblin until the first Hobgoblin who was thought dead returned and killed him.",
     "count_of_issue_appearances": 216,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Hobgoblin"
+    ]
   },
   {
     "name": "Phyla-Vell",
@@ -5336,7 +5342,10 @@
     "real_name": "Michael Pointer",
     "deck": "Michael Pointer is a mutant with the power to absorb other superhuman energies and powers. He was unaware of being a mutant until all the lost powers from M-Day selected him as a host. In this state he accidentally murdered Alpha Flight. He has been trying to make amends since but has almost constantly been manipulated by others.",
     "count_of_issue_appearances": 209,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Omega"
+    ]
   },
   {
     "name": "Miss America",

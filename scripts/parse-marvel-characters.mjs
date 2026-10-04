@@ -142,6 +142,8 @@ const characterAliases = new Map([
   ["Nadia van Dyne", ["Wasp"]],
   ["Kevin Masterson", ["Thunderstrike"]],
   ["Michael Pointer", ["Omega"]],
+  ["Jason Macendale", ["Hobgoblin"]],
+  ["Martinique Jason", ["Mastermind"]],
 ])
 
 const rawCharacters = JSON.parse(await readFile(rawInputPath, "utf8"))
