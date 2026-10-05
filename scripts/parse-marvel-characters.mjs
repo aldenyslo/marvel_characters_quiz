@@ -50,7 +50,7 @@ const realNamePatches = {
   "Charlotte Jones": "Charlotte Jones",
   "Eric Koenig": "Eric Koenig",
   "Kristoff Vernard": "Kristoff Vernard",
-  "Nancy Brown": "Nancy Brown-Hale",
+  "Nancy Brown": "Nancy Hale-Brown",
   "Alysande Stuart": "Alysande Stuart",
   "Marie Lathrop": "Marie Lathrop",
   "Ziran the Tester": "Ziran",
