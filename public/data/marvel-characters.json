@@ -5275,7 +5275,10 @@
     "real_name": "Sharon Ventura",
     "deck": "Sharon Ventura was a former pro-wrestler who fell in love with the Thing and subsequently joined the Fantastic Four as Ms. Marvel. During an adventure in space, she was exposed to Cosmic Rays which mutated her body into a rock-like form similar to that of the Thing. She is not to be confused with Darla Deering (a.k.a. Ms. Thing).",
     "count_of_issue_appearances": 215,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "She-Thing"
+    ]
   },
   {
     "name": "Annie Ghazikhanian",
@@ -5339,6 +5342,13 @@
     "deck": "Dyslexic & Aphasic, Wiz-Kid was a wheelchair-bound, mutant, technopath. Taki assisted in stopping N'astirh from fusing Limbo to Earth together forever during Inferno. ",
     "count_of_issue_appearances": 211,
     "gender": "Male"
+  },
+  {
+    "name": "Frigga",
+    "real_name": "Frigga",
+    "deck": "Frigga is the wife of Odin and biological mother of Balder the Brave. She is also the adoptive mother of Thor and Loki in Marvel comics. Following the Last Ragnarok which broke the cycle of unending cataclysm, Frigga has been reborn anew and goes by the name of Freyja.",
+    "count_of_issue_appearances": 210,
+    "gender": "Female"
   },
   {
     "name": "Michael Pointer",
@@ -6492,7 +6502,10 @@
     "real_name": "Clay Harder",
     "deck": "The first person called Two-Gun Kid. Clay Harder starred in dime novels that exaggerated his adventures. which inspired Matt Hawk to become Two-Gun Kid.",
     "count_of_issue_appearances": 166,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Two-Gun Kid"
+    ]
   },
   {
     "name": "Yellowjacket (DeMara)",
@@ -6505,13 +6518,6 @@
     "name": "Killraven",
     "real_name": "Jonathan Raven",
     "deck": "A warrior from Earth-691, Killraven led a group known as the Freemen against the tyranny of Earth's Martian Masters.",
-    "count_of_issue_appearances": 165,
-    "gender": "Male"
-  },
-  {
-    "name": "Heathcliff",
-    "real_name": null,
-    "deck": "Heathcliff the cat was a very popular tv-character. This made it so that he even got his very own series at Marvel Comics, witch lasted for 56 issues among other titles.",
     "count_of_issue_appearances": 165,
     "gender": "Male"
   },
@@ -7227,7 +7233,10 @@
     "real_name": "Davan Shakari",
     "deck": "Davan was a member of the Shiar Empire and protected their leader with his life.",
     "count_of_issue_appearances": 142,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Erik the Red"
+    ]
   },
   {
     "name": "Outlaw Kid",
@@ -7291,6 +7300,17 @@
     "deck": "Cerebra was created by Forge from old parts of a sentinel.",
     "count_of_issue_appearances": 142,
     "gender": "None"
+  },
+  {
+    "name": "Fenris Wolf",
+    "real_name": "Fenrir",
+    "deck": "Fenris the Wolf, Demon spawn of the God of Mischief, destined on the day of Ragnarok to break his bonds and to stand at the side of Loki, as they ushered in the Twilight of the Gods. On many occasions, he is said to be the offspring of Loki and the Giantess Angrboda.",
+    "count_of_issue_appearances": 142,
+    "gender": "Male",
+    "aliases": [
+      "Fenrir",
+      "Fenris"
+    ]
   },
   {
     "name": "Carter Ghazikhanian",
@@ -7472,7 +7492,10 @@
     "real_name": "Lily Hollister",
     "deck": "Harry Osborn's fiance who absorbed a unique variation of the Goblin Serum that allows her to shapeshift into a goblin. After losing those powers, she assumed the persona of Queen Cat.",
     "count_of_issue_appearances": 138,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Menace"
+    ]
   },
   {
     "name": "Swarm",
@@ -8256,7 +8279,10 @@
     "real_name": "David Moreau",
     "deck": "The creator of the Genoshan mutate process and a true patriot to his country.",
     "count_of_issue_appearances": 123,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Genegineer"
+    ]
   },
   {
     "name": "Maria Castle",
@@ -9712,7 +9738,10 @@
     "real_name": "Martha Franklin",
     "deck": "Mattie Franklin was the third person to be a costumed super-heroine called Spider-Woman.",
     "count_of_issue_appearances": 100,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Spider-Woman"
+    ]
   },
   {
     "name": "Perro",
@@ -10013,7 +10042,11 @@
     "real_name": "Mendel Stromm",
     "deck": "Mendel Stromm is a chemist and robot expert. He was   Norman Osborn's business and scientific partner until Norman betrayed him. His consciousness operates out of a robotic body.",
     "count_of_issue_appearances": 96,
-    "gender": "Male"
+    "gender": "Male",
+    "aliases": [
+      "Robot Master",
+      "Gaunt"
+    ]
   },
   {
     "name": "Ultragirl",
@@ -10468,7 +10501,10 @@
     "real_name": "Ravonna Lexus Renslayer",
     "deck": "A time-traveling princess, conqueror, and assassin. Ravonna Renslayer has gone by many names: Terminatrix, Revelation, Nebula... but she can never escape her fate woven intricately with the Conquerer of Time, Kang.",
     "count_of_issue_appearances": 90,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Terminatrix"
+    ]
   },
   {
     "name": "Kruun",
@@ -10839,13 +10875,6 @@
     "real_name": null,
     "deck": "Initially build by Tony Stark during the Civil War. These Sentinels came under the control of the Red Skull.",
     "count_of_issue_appearances": 86,
-    "gender": "Male"
-  },
-  {
-    "name": "Stimpy",
-    "real_name": "Stimpson J. Cat",
-    "deck": null,
-    "count_of_issue_appearances": 85,
     "gender": "Male"
   },
   {
@@ -11721,7 +11750,10 @@
     "real_name": "Thanasee Rappaccini",
     "deck": "Carmilla Black is the new Scorpion with chemical-based powers. However, she has no connection to the original Scorpion. Her mother genetically engineered her and others called the Wakers. Formerly part of S.H.I.E.L.D., Carmilla's current loyalties are a mystery, but she remains an effective spy.",
     "count_of_issue_appearances": 78,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Scorpion"
+    ]
   },
   {
     "name": "Agony",
@@ -11897,13 +11929,6 @@
     "deck": "A very successful lawyer who has had a precedent-setting law career. Jennifer Walters used to work at the same law practice with her (Goodman, Lieber, Kurtzberg, and Holliway).",
     "count_of_issue_appearances": 76,
     "gender": "Female"
-  },
-  {
-    "name": "Ren Hoek",
-    "real_name": "Ren Höek",
-    "deck": "Ren Hoek is a rage-filled chihuahua and best friend of Stimpy.",
-    "count_of_issue_appearances": 76,
-    "gender": "Male"
   },
   {
     "name": "Killpower",

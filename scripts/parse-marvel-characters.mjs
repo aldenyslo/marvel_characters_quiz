@@ -28,6 +28,9 @@ const discardedCharacterNames = [
   "E. Claude Pennygrabber",
   "Ginch",
   "Wacky Willie",
+  "Stimpy",
+  "Ren Hoek",
+  "Heathcliff",
 ]
 const discardedFirstAppearanceIssueNameFragments = [
   // Add issue-name fragments to exclude matching characters from parsed output.
@@ -145,7 +148,33 @@ const characterAliases = new Map([
   ["Jason Macendale", ["Hobgoblin"]],
   ["Martinique Jason", ["Mastermind"]],
   ["Temper", ["Oya"]],
+  ["Sharon Ventura", ["She-Thing"]],
+  ["Professor Mendel Stromm", ["Robot Master", "Gaunt"]],
+  ["Queen Cat", ["Menace"]],
+  ["Carmilla Black", ["Scorpion"]],
+  ["Ravonna", ["Terminatrix"]],
+  ["Mattie Franklin", ["Spider-Woman"]],
+  ["Eric the Red", ["Erik the Red"]],
+  ["David Moreau", ["Genegineer"]],
+  ["Clay Harder", ["Two-Gun Kid"]],
 ])
+const manuallyAddedCharacters = [
+  {
+    name: "Frigga",
+    real_name: "Frigga",
+    deck: "Frigga is the wife of Odin and biological mother of Balder the Brave. She is also the adoptive mother of Thor and Loki in Marvel comics. Following the Last Ragnarok which broke the cycle of unending cataclysm, Frigga has been reborn anew and goes by the name of Freyja.",
+    count_of_issue_appearances: 210,
+    gender: "Female",
+  },
+  {
+    name: "Fenris Wolf",
+    real_name: "Fenrir",
+    deck: "Fenris the Wolf, Demon spawn of the God of Mischief, destined on the day of Ragnarok to break his bonds and to stand at the side of Loki, as they ushered in the Twilight of the Gods. On many occasions, he is said to be the offspring of Loki and the Giantess Angrboda.",
+    count_of_issue_appearances: 142,
+    gender: "Male",
+    aliases: ["Fenrir", "Fenris"],
+  },
+]
 
 const rawCharacters = JSON.parse(await readFile(rawInputPath, "utf8"))
 
@@ -196,6 +225,7 @@ const parsedCharacters = rawCharacters
       ? { aliases: characterAliases.get(character.name) }
       : {}),
   }))
+  .concat(manuallyAddedCharacters)
   .sort(
     (left, right) =>
       right.count_of_issue_appearances - left.count_of_issue_appearances,
