@@ -1356,7 +1356,10 @@
     "real_name": "Idie Okonkwo",
     "deck": "Oya (Idie Okonkwo - pronounced \"Ih-Dee-Yeh Okonkwo\") is a young Nigerian girl who gained her powers post M-Day. She is one of the Five Lights and the third member that Hope activated. She is currently enrolled at the Jean Grey School for Higher Learning.",
     "count_of_issue_appearances": 1005,
-    "gender": "Female"
+    "gender": "Female",
+    "aliases": [
+      "Oya"
+    ]
   },
   {
     "name": "Marrow",
