@@ -36,6 +36,17 @@ Aliases are matched with the same name normalization as character names. Running
 - `npm run fetch:characters`: replace the raw archive with Comic Vine data.
 - `npm run parse:characters`: build the quiz archive from the raw archive.
 
+## Deploying to Netlify
+
+The repository includes a Netlify configuration. In Netlify, create a new site
+by importing this Git repository; Netlify will run `npm run build` and publish
+the `dist` directory. The configuration also routes unmatched paths to the
+single-page app.
+
+The deployed quiz uses the character archive committed under `public/data`, so
+the Comic Vine API key is not needed to build or deploy the site. Keep the key
+in your local `.env` file only when refreshing the archive.
+
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).

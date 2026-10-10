@@ -5009,6 +5009,13 @@
     "gender": "Female"
   },
   {
+    "name": "Surtur",
+    "real_name": "Surtr",
+    "deck": "Surtur is the God of Muspelheim and King of the Fire Giants. He is a demon of gigantic proportions and one of the greatest threats to Asgard. He wields the powerful Twilight Sword that is capable of destroying universes.",
+    "count_of_issue_appearances": 233,
+    "gender": "Male"
+  },
+  {
     "name": "Cyber",
     "real_name": "Silas Burr",
     "deck": "Cyber is a mutant and an enemy of Wolverine and the X-Men. He is also well known throughout the criminal underworld.",
@@ -6408,7 +6415,7 @@
   },
   {
     "name": "Nancy Brown",
-    "real_name": "Nancy Brown-Hale",
+    "real_name": "Nancy Hale-Brown",
     "deck": "A college friend to Patsy Walker and Hedy Wolfe",
     "count_of_issue_appearances": 169,
     "gender": "Female"
@@ -6454,6 +6461,13 @@
     "deck": "Princess Mari was the daughter of the King and Queen of Homeworld. When Baron Karza killed her parents and enslaved their planet, she helped lead the underground resistance fighters on Homeworld, before joining Commander Arcturus Rann as a member of the Micronauts.",
     "count_of_issue_appearances": 168,
     "gender": "Female"
+  },
+  {
+    "name": "Midgard Serpent",
+    "real_name": "Jormungandr",
+    "deck": "An enormous serpent that wraps around Midgard, Jormungand is an enemy of Asgard. In the prophecy of Ragnarok, Thor and the Midgard Serpent are destined to both die in battle with one another. As per its nickname, Jormungand covers the entire planet from head to tail.",
+    "count_of_issue_appearances": 168,
+    "gender": "Male"
   },
   {
     "name": "Justin Hammer",
@@ -8367,6 +8381,13 @@
     "deck": "Sister to Genesis and sister-in-law to Apocalypse, Isca is an Omega-level mutant with the power to never lose. Often this power controls her rather than the other way around, and forces her to take actions she may not like in order to remain on the winning side.",
     "count_of_issue_appearances": 121,
     "gender": "Female"
+  },
+  {
+    "name": "Ymir",
+    "real_name": "Ymir",
+    "deck": "Ymir is the oldest and most powerful of the Frost Giants. He was amongst one of the first Asgardian creatures to be created and spawned the Asgardian gods.",
+    "count_of_issue_appearances": 121,
+    "gender": "Male"
   },
   {
     "name": "Heather Glenn",

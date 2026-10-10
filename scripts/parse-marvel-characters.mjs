@@ -174,6 +174,27 @@ const manuallyAddedCharacters = [
     gender: "Male",
     aliases: ["Fenrir", "Fenris"],
   },
+  {
+    name: "Surtur",
+    real_name: "Surtr",
+    deck: "Surtur is the God of Muspelheim and King of the Fire Giants. He is a demon of gigantic proportions and one of the greatest threats to Asgard. He wields the powerful Twilight Sword that is capable of destroying universes.",
+    count_of_issue_appearances: 233,
+    gender: "Male",
+  },
+  {
+    name: "Ymir",
+    real_name: "Ymir",
+    deck: "Ymir is the oldest and most powerful of the Frost Giants. He was amongst one of the first Asgardian creatures to be created and spawned the Asgardian gods.",
+    count_of_issue_appearances: 121,
+    gender: "Male",
+  },
+  {
+    name: "Midgard Serpent",
+    real_name: "Jormungandr",
+    deck: "An enormous serpent that wraps around Midgard, Jormungand is an enemy of Asgard. In the prophecy of Ragnarok, Thor and the Midgard Serpent are destined to both die in battle with one another. As per its nickname, Jormungand covers the entire planet from head to tail.",
+    count_of_issue_appearances: 168,
+    gender: "Male",
+  },
 ]
 
 const rawCharacters = JSON.parse(await readFile(rawInputPath, "utf8"))
